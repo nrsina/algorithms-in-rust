@@ -1,4 +1,5 @@
 // Given a string str, return true if it is a palindrome, false otherwise.
+// Complexity: O(N)
 
 fn is_palindrome(str: &str) -> bool {
     let mut arr = str.chars();
