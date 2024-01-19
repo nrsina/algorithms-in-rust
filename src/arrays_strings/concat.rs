@@ -8,7 +8,7 @@ fn concat(left: &str, right: &str) -> String {
 }
 
 #[cfg(test)]
-mod tests {
+mod test {
     use super::*;
 
     #[test]
