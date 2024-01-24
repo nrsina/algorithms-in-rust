@@ -1,6 +1,6 @@
 // Given a string str, return true if it is a palindrome, false otherwise.
 // Complexity: O(N)
-
+// Two Pointers
 fn is_palindrome(str: &str) -> bool {
     let mut arr = str.chars();
     while let Some((i, j)) = arr.next().zip(arr.next_back()) {
