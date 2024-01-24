@@ -1,6 +1,6 @@
 
 // Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
-// Two Pointers
+// Approach: Two Pointers
 fn sorted_squares(nums: Vec<i32>) -> Vec<i32> {
     let mut i = 0;
     let mut j = nums.len() - 1;
